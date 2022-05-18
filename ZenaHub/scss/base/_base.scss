@@ -1,0 +1,29 @@
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  text-decoration: none;
+  
+}
+
+html{
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem =10px in percentage; 
+  @media only screen and (max-width:$bp-mid){
+    font-size: 50%;
+  }
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-image: linear-gradient(to right bottom, $Primary-light,$Primary-dark);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+  color:$Grey-dark-2;
+  
+}
+
+
